@@ -15,3 +15,8 @@ brew isntall stow
 stow .
 ```
 
+## After install all, install Tmux Plugin Manager
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
