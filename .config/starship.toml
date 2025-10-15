@@ -28,6 +28,11 @@ symbol = " "
 [deno]
 symbol = " "
 
+[os]
+format = "[$symbol]($style) "  # The space at the end adds spacing
+style = "bold blue"            # You can change the color if you like
+disabled = false
+
 [directory]
 read_only = " 󰌾"
 
