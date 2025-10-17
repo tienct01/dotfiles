@@ -29,8 +29,8 @@ symbol = " "
 symbol = " "
 
 [os]
-format = "[$symbol]($style) "  # The space at the end adds spacing
-style = "bold blue"            # You can change the color if you like
+format = "[$symbol]($style)"
+style = "bold blue"
 disabled = false
 
 [directory]
