@@ -10,5 +10,5 @@ return {
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.editing-support.vim-visual-multi" },
-  { import = "astrocommunity.remote-development.distant-nvim" }
+  { import = "astrocommunity.git.neogit" }
 }
