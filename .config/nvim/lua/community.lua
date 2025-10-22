@@ -9,6 +9,6 @@ return {
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.editing-support.vim-visual-multi" },
-  { import = "astrocommunity.git.neogit" }
 }
