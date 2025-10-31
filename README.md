@@ -7,12 +7,12 @@ sudo apt install stow
 
 ## Macos
 ```
-brew isntall stow
+brew install stow
 ```
 
 ## Install 
 ```
-stow .
+stow <config-want-to-install>
 ```
 
 ## After install all, install Tmux Plugin Manager
