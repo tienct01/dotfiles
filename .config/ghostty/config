@@ -25,9 +25,7 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-font-family = 0xProto Nerd Font
-window-padding-x = 2
-font-size = 12
+font-family = JetbrainsMono Nerd Font
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
 # key=value
