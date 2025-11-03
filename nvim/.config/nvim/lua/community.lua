@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   -- import/override with your plugins folder
   { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },

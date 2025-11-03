@@ -30,5 +30,8 @@ return {
 			-- end
 		},
 		-- enable servers that you already have installed without mason
+		features = {
+			inlay_hints = true, -- enable inlay hints globally on startup
+		},
 	},
 }
