@@ -8,6 +8,10 @@ return {
 	"AstroNvim/astrolsp",
 	---@type AstroLSPOpts
 	opts = {
+		features = {
+			inlay_hints = true, -- enable inlay hints globally on startup
+		},
+
 		-- customize lsp formatting options
 		formatting = {
 			-- control auto formatting on save
@@ -28,10 +32,6 @@ return {
 			-- filter = function(client) -- fully override the default formatting function
 			--   return true
 			-- end
-		},
-		-- enable servers that you already have installed without mason
-		features = {
-			inlay_hints = true, -- enable inlay hints globally on startup
 		},
 	},
 }
