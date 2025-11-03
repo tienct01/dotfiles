@@ -5,30 +5,10 @@ return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
     ensure_installed = {
-      -- 🧠 Core languages
       "lua",
       "vim",
-      "bash",
-      "json",
-      "yaml",
-      "toml",
-
-      -- 🌐 Web development
-      "html",
-      "css",
-      "javascript",
-      "typescript",
-      "tsx", -- React / Next.js JSX
-      "graphql",
-
-      -- 🧩 Templates & markup
-      "markdown",
-      "prisma",
-
-      -- 🧰 Optional utils
-      "regex",
-      "dockerfile",
-      "gitignore",
+      -- add more arguments for adding more treesitter parsers
     },
+    auto_install = true,
   },
 }
