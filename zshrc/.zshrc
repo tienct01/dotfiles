@@ -116,6 +116,3 @@ alias vim="nvim"
 
 # Starship configuration
 eval "$(starship init zsh)"
-
-# opencode
-export PATH=/home/tiendvd/.opencode/bin:$PATH
