@@ -1,3 +1,4 @@
+if true then return {} end
 -- Customize Treesitter
 
 ---@type LazySpec
