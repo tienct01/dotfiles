@@ -8,10 +8,6 @@ return {
 	"AstroNvim/astrolsp",
 	---@type AstroLSPOpts
 	opts = {
-		features = {
-			inlay_hints = true, -- enable inlay hints globally on startup
-		},
-
 		-- customize lsp formatting options
 		formatting = {
 			-- control auto formatting on save
