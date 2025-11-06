@@ -6,6 +6,17 @@
 return {
   "AstroNvim/astrocommunity",
   -- import/override with your plugins folder
+  -- Language pack
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.prettier" },
+  { import = "astrocommunity.pack.eslint" },
+  { import = "astrocommunity.pack.prisma" },
+
+  -- Others
+  { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.diagnostics.trouble-nvim", },
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.recipes.vscode" },

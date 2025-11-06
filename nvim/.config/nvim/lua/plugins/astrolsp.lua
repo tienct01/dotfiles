@@ -8,6 +8,11 @@ return {
 	"AstroNvim/astrolsp",
 	---@type AstroLSPOpts
 	opts = {
+		feature = {
+			codelens = true,
+			inlay_hints = true,
+			semantic_tokens = true,
+		},
 		-- customize lsp formatting options
 		formatting = {
 			-- control auto formatting on save
@@ -28,6 +33,6 @@ return {
 			-- filter = function(client) -- fully override the default formatting function
 			--   return true
 			-- end
-		},
+		}
 	},
 }
