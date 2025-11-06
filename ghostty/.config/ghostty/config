@@ -1,11 +1,12 @@
 # Font
-font-family = JetbrainsMono Nerd Font
+font-family = "JetbrainsMono Nerd Font"
 font-size = 12 
 font-thicken = true
 
 # Background
 background-opacity = 0.75
 background-blur = true
+window-padding-x = 8
 
 # Theme
 theme = Catppuccin Mocha 
