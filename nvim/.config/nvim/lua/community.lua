@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.prisma" },
 
   -- Others
+  { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.diagnostics.trouble-nvim", },
   { import = "astrocommunity.completion.copilot-vim" },
