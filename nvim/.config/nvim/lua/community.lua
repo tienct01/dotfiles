@@ -20,7 +20,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim", },
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
 }
