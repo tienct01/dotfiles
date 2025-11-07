@@ -4,27 +4,49 @@
 
 ---@type LazySpec
 return {
-  {
-    "folke/snacks.nvim",
-    ---@type snacks.Config
-    opts = {
-      dashboard = {
-        preset = {
-          header = table.concat({
-            " █████  ███████ ████████ ██████   ██████ ",
-            "██   ██ ██         ██    ██   ██ ██    ██",
-            "███████ ███████    ██    ██████  ██    ██",
-            "██   ██      ██    ██    ██   ██ ██    ██",
-            "██   ██ ███████    ██    ██   ██  ██████ ",
-            "",
-            "███    ██ ██    ██ ██ ███    ███",
-            "████   ██ ██    ██ ██ ████  ████",
-            "██ ██  ██ ██    ██ ██ ██ ████ ██",
-            "██  ██ ██  ██  ██  ██ ██  ██  ██",
-            "██   ████   ████   ██ ██      ██",
-          }, "\n"),
-        },
-      },
-    },
-  },
+	{
+		"folke/snacks.nvim",
+		---@type snacks.Config
+		opts = {
+			dashboard = {
+				preset = {
+					header = table.concat({
+						" █████  ███████ ████████ ██████   ██████ ",
+						"██   ██ ██         ██    ██   ██ ██    ██",
+						"███████ ███████    ██    ██████  ██    ██",
+						"██   ██      ██    ██    ██   ██ ██    ██",
+						"██   ██ ███████    ██    ██   ██  ██████ ",
+						"",
+						"███    ██ ██    ██ ██ ███    ███",
+						"████   ██ ██    ██ ██ ████  ████",
+						"██ ██  ██ ██    ██ ██ ██ ████ ██",
+						"██  ██ ██  ██  ██  ██ ██  ██  ██",
+						"██   ████   ████   ██ ██      ██",
+					}, "\n"),
+				},
+			},
+		},
+	},
+
+	{
+		"Saghen/blink.cmp",
+		optional = true,
+		opts = function(_, opts)
+			opts.keymap = opts.keymap or {}
+
+			-- Keep normal tab behavior for snippets
+			opts.keymap["<Tab>"] = { "snippet_forward", "fallback" }
+			opts.keymap["<S-Tab>"] = { "snippet_backward", "fallback" }
+
+			-- Use Ctrl-Tab for AI completion
+			opts.keymap["<C-Tab>"] = {
+				function()
+					if vim.g.ai_accept then
+						return vim.g.ai_accept()
+					end
+				end,
+				"fallback",
+			}
+		end,
+	},
 }
