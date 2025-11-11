@@ -16,7 +16,7 @@ return {
 
   -- Others
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.recipes.heirline-mode-text-status-line" },
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.utility.noice-nvim" },
