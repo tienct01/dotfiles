@@ -1,9 +1,9 @@
 # Font
-font-family = "JetbrainsMono Nerd Font"
+font-family = "CaskaydiaMono Nerd Font Mono"
 font-thicken = true
 
 # Background
-background-opacity = 0.75
+background-opacity = 0.95
 background-blur = true
 window-padding-x = 8
 
