@@ -15,10 +15,7 @@ return {
   { import = "astrocommunity.pack.prisma" },
 
   -- Others
-  { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
-  { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.completion.copilot-vim" },
-  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.recipes.vscode-icons" },
 }

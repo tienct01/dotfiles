@@ -120,3 +120,8 @@ eval "$(starship init zsh)"
 
 # opencode
 export PATH=/home/tiendvd/.opencode/bin:$PATH
+
+
+if [[ -n "$GHOSTTY_SHELL" ]]; then
+  neofetch
+fi
