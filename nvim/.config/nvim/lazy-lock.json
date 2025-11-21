@@ -50,6 +50,7 @@
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "schemastore.nvim": { "branch": "main", "commit": "1d0932eef16b068e65e0c6ceb4461edd774dd521" },
   "smart-splits.nvim": { "branch": "master", "commit": "ddb23c1a1cf1507bda487cda7f6e4690965ef9f5" },
+  "smear-cursor.nvim": { "branch": "main", "commit": "b9377c0508712c113d73d4ea94190a49b47ac18d" },
   "snacks.nvim": { "branch": "main", "commit": "a4e46becca45eb65c73a388634b1ce8aad629ae0" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
   "toggleterm.nvim": { "branch": "main", "commit": "50ea089fc548917cc3cc16b46a8211833b9e3c7c" },
