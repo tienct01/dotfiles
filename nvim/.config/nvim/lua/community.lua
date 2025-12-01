@@ -14,6 +14,9 @@ return {
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.prisma" },
 
+  -- Status line
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+
   -- Others
   { import = "astrocommunity.completion.copilot-vim" },
   { import = "astrocommunity.motion.flash-nvim" },
