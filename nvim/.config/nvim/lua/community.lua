@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.docker" },
 
   -- Status line
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
