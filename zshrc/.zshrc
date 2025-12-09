@@ -107,9 +107,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias vim="nvim"
+alias vim="NVIM_APPNAME=lazy-nvim nvim"
 alias kickstart-nvim="NVIM_APPNAME=kickstart-nvim nvim"
-alias lazy-vim="NVIM_APPNAME=lazy-nvim nvim"
+alias nvim="NVIM_APPNAME=lazy-nvim nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
     export NVM_DIR="$HOME/.nvm"

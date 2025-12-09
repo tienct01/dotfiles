@@ -15,6 +15,9 @@ return {
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.docker" },
 
+  -- Color schemes
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+
   -- Status line
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 
