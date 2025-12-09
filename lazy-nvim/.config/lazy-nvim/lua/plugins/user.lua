@@ -4,8 +4,28 @@ return {
     "folke/snacks.nvim",
     opts = {
       picker = {
-        ignored = true,
         hidden = true,
+      },
+    },
+  },
+
+  {
+    "snacks.nvim",
+    opts = {
+      dashboard = {
+        preset = {
+          pick = function(cmd, opts)
+            return LazyVim.pick(cmd, opts)()
+          end,
+          header = [[
+        ██╗      █████╗ ███████╗██╗   ██╗          Z
+        ██║     ██╔══██╗╚══███╔╝╚██╗ ██╔╝      Z    
+        ██║     ███████║  ███╔╝  ╚████╔╝    z       
+        ██║     ██╔══██║ ███╔╝    ╚██╔╝   z         
+        ███████╗██║  ██║███████╗   ██║              
+        ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝              
+ ]],
+        },
       },
     },
   },
