@@ -26,13 +26,7 @@ return {
 	-- Completion
 	{ import = "astrocommunity.recipes.disable-borders" },
 
-	-- Status line
-	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
-
 	-- Others
 	{ import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
-
-	-- Vscode
-	{ import = "astrocommunity.recipes.vscode" },
 }
