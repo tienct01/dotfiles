@@ -4,24 +4,27 @@
 
 ---@type LazySpec
 return {
-  "AstroNvim/astrocommunity",
-  -- import/override with your plugins folder
-  -- Language pack
-  { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.prettier" },
-  { import = "astrocommunity.pack.eslint" },
-  { import = "astrocommunity.pack.prisma" },
-  { import = "astrocommunity.pack.docker" },
+	"AstroNvim/astrocommunity",
+	-- import/override with your plugins folder
+	-- Language pack
+	{ import = "astrocommunity.pack.lua" },
+	{ import = "astrocommunity.pack.typescript" },
+	{ import = "astrocommunity.pack.html-css" },
+	{ import = "astrocommunity.pack.prettier" },
+	{ import = "astrocommunity.pack.eslint" },
+	{ import = "astrocommunity.pack.prisma" },
+	{ import = "astrocommunity.pack.docker" },
 
-  -- Color schemes
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+	-- Color schemes
+	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
-  -- Status line
-  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+	-- Completion
+	{ import = "astrocommunity.recipes.disable-borders" },
 
-  -- Others
-  { import = "astrocommunity.completion.copilot-vim" },
-  { import = "astrocommunity.motion.flash-nvim" },
+	-- Status line
+	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+
+	-- Others
+	{ import = "astrocommunity.completion.copilot-vim" },
+	{ import = "astrocommunity.motion.flash-nvim" },
 }

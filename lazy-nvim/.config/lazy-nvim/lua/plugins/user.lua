@@ -1,4 +1,9 @@
 return {
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    opts = { style = "storm" },
+  },
   -- Snacks.nvim
   {
     "folke/snacks.nvim",

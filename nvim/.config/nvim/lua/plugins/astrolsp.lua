@@ -33,6 +33,6 @@ return {
 			-- filter = function(client) -- fully override the default formatting function
 			--   return true
 			-- end
-		}
+		},
 	},
 }
