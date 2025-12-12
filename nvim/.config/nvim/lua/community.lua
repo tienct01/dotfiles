@@ -27,4 +27,7 @@ return {
 	-- Others
 	{ import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
+
+	-- Vscode
+	{ import = "astrocommunity.recipes.vscode" }
 }
