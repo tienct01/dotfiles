@@ -1,69 +1,49 @@
 return {
-	{
-		"jay-babu/mason-nvim-dap.nvim",
-		opts = {
-			handlers = {
-				python = function(source_name)
-					local dap = require("dap")
-					dap.adapters.python = {
-						type = "executable",
-						command = "/usr/bin/python3",
+	"jay-babu/mason-nvim-dap.nvim",
+	opts = {
+		ensure_installed = { "js-debug-adapter" },
+		handlers = {
+			js = function()
+				local dap = require("dap")
+
+				dap.set_log_level("TRACE")
+
+				local js_debug_path = vim.fn.stdpath("data")
+						.. "/mason/packages/js-debug-adapter/js-debug/src/dapDebugServer.js"
+
+				dap.adapters["pwa-node"] = {
+					type = "server",
+					host = "127.0.0.1",
+					port = "${port}",
+					executable = {
+						command = "node",
 						args = {
-							"-m",
-							"debugpy.adapter",
+							js_debug_path,
+							"${port}",
 						},
-					}
+					},
+				}
 
-					dap.configurations.python = {
-						{
-							type = "python",
-							request = "launch",
-							name = "Launch file",
-							program = "${file}", -- This configuration will launch the current file if used.
-						},
-					}
-				end,
-				javascript = function()
-					local dap = require("dap")
+				dap.configurations.javascript = {
+					{
+						type = "pwa-node",
+						request = "launch",
+						name = "Launch file",
+						program = "${file}",
+						cwd = "${workspaceFolder}",
+					},
+					{
+						type = "pwa-node",
+						request = "attach",
+						name = "Attach to process ID",
+						processId = require("dap.utils").pick_process,
+						cwd = "${workspaceFolder}",
+					},
+				}
 
-					dap.adapters["pwa-node"] = {
-						type = "server",
-						host = "localhost",
-						port = "${port}",
-						executable = {
-							command = "node",
-							args = {
-								require("mason-registry").get_package("js-debug-adapter"):get_install_path()
-									.. "/js-debug/src/dapDebugServer.js",
-								"${port}",
-							},
-						},
-					}
-
-					dap.configurations.javascript = {
-						{
-							type = "pwa-node",
-							request = "launch",
-							name = "Launch current file (Node)",
-							program = "${file}",
-							cwd = "${workspaceFolder}",
-							sourceMaps = true,
-							protocol = "inspector",
-							console = "integratedTerminal",
-						},
-						{
-							type = "pwa-node",
-							request = "attach",
-							name = "Attach to process",
-							processId = require("dap.utils").pick_process,
-							cwd = "${workspaceFolder}",
-						},
-					}
-
-					-- dùng chung cho TypeScript
-					dap.configurations.typescript = dap.configurations.javascript
-				end,
-			},
+				-- dùng chung cho TypeScript
+				dap.configurations.typescript = dap.configurations.javascript
+			end,
 		},
 	},
 }
