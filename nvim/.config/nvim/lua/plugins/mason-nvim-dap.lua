@@ -8,17 +8,13 @@ return {
 
 				dap.set_log_level("TRACE")
 
-				local js_debug_path = vim.fn.stdpath("data")
-						.. "/mason/packages/js-debug-adapter/js-debug/src/dapDebugServer.js"
-
 				dap.adapters["pwa-node"] = {
 					type = "server",
-					host = "127.0.0.1",
+					host = "localhost",
 					port = "${port}",
 					executable = {
-						command = "node",
+						command = "js-debug-adapter",
 						args = {
-							js_debug_path,
 							"${port}",
 						},
 					},
