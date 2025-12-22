@@ -19,6 +19,7 @@ return {
 	{ import = "astrocommunity.pack.eslint" },
 	{ import = "astrocommunity.pack.prisma" },
 	{ import = "astrocommunity.pack.docker" },
+	{ import = "astrocommunity.pack.go" },
 
 	-- Color schemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
