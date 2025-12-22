@@ -127,3 +127,6 @@ export PATH=/home/tiendvd/.opencode/bin:$PATH
 if [[ -n "$GHOSTTY_SHELL" ]]; then
   neofetch
 fi
+
+# opencode
+export PATH=/Users/tiendvd/.opencode/bin:$PATH
