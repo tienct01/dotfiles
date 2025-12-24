@@ -8,3 +8,7 @@ vim.lsp.enable("shopify_theme_ls")
 
 vim.lsp.enable("graphql")
 
+vim.lsp.config("graphql", {
+  cmd = { "graphql-lsp", "server", "-m", "stream" },
+})
+

@@ -11,7 +11,6 @@ return {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
         "graphql-language-service-cli",
-        "shopify_cli"
       },
     },
   },
