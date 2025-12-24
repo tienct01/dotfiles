@@ -117,13 +117,11 @@ alias lazy-nvim="NVIM_APPNAME=lazy-nvim nvim"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
     [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
+
 # Starship configuration
 eval "$(starship init zsh)"
 
 # opencode
 export PATH=/home/tiendvd/.opencode/bin:$PATH
 
-
-if [[ -n "$GHOSTTY_SHELL" ]]; then
-  neofetch
-fi
+export PATH=$PATH:/usr/local/go/bin
