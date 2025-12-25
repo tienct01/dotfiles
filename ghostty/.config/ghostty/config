@@ -9,7 +9,7 @@ background-opacity = 0.9
 background-blur = true
 
 # Theme
-theme = Catppuccin Mocha 
+theme = TokyoNight Moon 
 
 # Window
 window-decoration = client 
