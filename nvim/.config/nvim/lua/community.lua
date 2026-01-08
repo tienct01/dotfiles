@@ -28,6 +28,6 @@ return {
 	{ import = "astrocommunity.recipes.disable-borders" },
 
 	-- Others
-	{ import = "astrocommunity.completion.copilot-vim" },
+	-- { import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
 }

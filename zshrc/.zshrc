@@ -125,3 +125,4 @@ eval "$(starship init zsh)"
 export PATH=/home/tiendvd/.opencode/bin:$PATH
 
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$HOME/.local/bin:$PATH
