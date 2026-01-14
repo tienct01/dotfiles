@@ -1,9 +1,10 @@
 # Font
-font-family = "JetbrainsMono Nerd Font"
+font-family = "JetbrainsMono Nerd Font Mono"
 font-thicken = true
 font-size = 12
 
 # Background
+background-opacity = 0.9
 window-padding-x = 8
 background-blur = true
 
