@@ -7,24 +7,32 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  // UI Configuration
   "git_panel": {
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
   "ui_font_size": 14,
-  "buffer_font_size": 13,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha"
   },
-
   "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_weight": 500,
+  "tabs": {
+    "git_status":true,
+    "show_diagnostics": "errors",
+    "file_icons": true,
+  },
+
+  // Buffer config
+  "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_line_height": "standard",
-  "buffer_font_weight": 500,
+  "buffer_font_weight": 400,
 
+  // Terminal
   "terminal": {
     "font_size": 12,
     "line_height": "standard",
@@ -32,10 +40,20 @@
   },
 
   "cursor_blink": false,
-  "formatter": "prettier",
-  "format_on_save": "off",
+
+  // Vim
   "vim_mode": true,
   "vim": {
-    "toggle_relative_line_numbers": true
-  }
+    "toggle_relative_line_numbers": true,
+  },
+
+  // AI
+  "disable_ai": true,
+
+  // Prettier format
+  "formatter": "prettier",
+  "format_on_save": "off",
+  "prettier": {
+    "allowed": true
+  },
 }
