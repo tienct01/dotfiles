@@ -1,4 +1,4 @@
-// Zed settings
+// Zed settins
 //
 // For information on how to configure Zed, see the Zed
 // documentation: https://zed.dev/docs/configuring-zed
@@ -9,8 +9,8 @@
 {
   "icon_theme": "Catppuccin Frappé",
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
+  "ui_font_size": 14,
+  "buffer_font_size": 13,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
