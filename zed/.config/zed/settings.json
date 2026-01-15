@@ -7,8 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Catppuccin Frappé",
-  "vim_mode": true,
+  "icon_theme": "Material Icon Theme",
   "ui_font_size": 14,
   "buffer_font_size": 13,
   "theme": {
@@ -17,10 +16,15 @@
     "dark": "Catppuccin Frappé",
   },
 
-  "ui_font_family": "CaskaydiaMono Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_weight": 500,
-  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_font_weight": 500,
 
   "formatter": "prettier",
+  "format_on_save": "off",
+  "vim_mode": true,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  }
 }
