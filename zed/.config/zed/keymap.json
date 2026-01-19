@@ -22,7 +22,7 @@
     "context": "vim_mode == visual",
     "bindings": {
       "shift-s": "vim::PushAddSurrounds",
-      "g q": ["editor::FormatSelections", "vim::SwitchToNormalMode"],
+      "g q": "editor::FormatSelections",
     },
   },
 ]

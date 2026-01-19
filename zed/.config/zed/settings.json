@@ -7,15 +7,38 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // UI Configuration
+  "ssh_connections": [
+    {
+      "host": "banner-test",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/var/www/html"
+          ]
+        }
+      ]
+    }
+  ],
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "features": {
     "edit_prediction_provider": "copilot"
   },
+
+  // UI Configuration
   "git_panel": {
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 15,
+  "ui_font_size": 14,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
@@ -30,7 +53,7 @@
   },
 
   // Buffer config
-  "buffer_font_size": 14,
+  "buffer_font_size": 13,
   "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 400,
