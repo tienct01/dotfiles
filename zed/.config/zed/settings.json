@@ -8,6 +8,9 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // UI Configuration
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
   "git_panel": {
     "tree_view": true
   },
@@ -48,7 +51,7 @@
   },
 
   // AI
-  "disable_ai": true,
+  "disable_ai": false,
 
   // Prettier format
   "formatter": "prettier",
