@@ -15,13 +15,13 @@
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 14,
+  "ui_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
   },
-  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "CaskaydiaMono Nerd Font",
   "ui_font_weight": 500,
   "tabs": {
     "git_status":true,
@@ -30,8 +30,8 @@
   },
 
   // Buffer config
-  "buffer_font_size": 13,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_size": 14,
+  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 400,
 
@@ -40,6 +40,7 @@
     "font_size": 12,
     "line_height": "standard",
     "default_height": 400,
+    "font_family": "CaskaydiaMono Nerd Font Mono"
   },
 
   "cursor_blink": false,
