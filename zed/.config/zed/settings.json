@@ -21,7 +21,7 @@
     }
   ],
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-5-mini"
@@ -62,10 +62,14 @@
   },
 
   // Buffer config
-  "buffer_font_size": 13,
+  "buffer_font_size": 14,
   "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 400,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": false,
+  },
 
   // Terminal
   "terminal": {

@@ -25,4 +25,11 @@
       "g q": "editor::FormatSelections",
     },
   },
+  // Remove the ctrl - w close pane
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-w": null,
+    }
+  }
 ]
