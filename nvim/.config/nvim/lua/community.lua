@@ -1,8 +1,3 @@
-if vim.g.vscode then
-	return {
-		{ import = "astrocommunity.recipes.vscode" },
-	}
-end
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
 -- This guarantees that the specs are processed before any user plugins.
@@ -17,9 +12,9 @@ return {
 	{ import = "astrocommunity.pack.html-css" },
 	{ import = "astrocommunity.pack.prettier" },
 	{ import = "astrocommunity.pack.eslint" },
-	{ import = "astrocommunity.pack.prisma" },
-	{ import = "astrocommunity.pack.docker" },
-	{ import = "astrocommunity.pack.go" },
+	-- { import = "astrocommunity.pack.prisma" },
+	-- { import = "astrocommunity.pack.docker" },
+	-- { import = "astrocommunity.pack.go" },
 
 	-- Color schemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
