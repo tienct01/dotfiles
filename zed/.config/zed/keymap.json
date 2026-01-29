@@ -27,9 +27,24 @@
   },
   // Remove the ctrl - w close pane
   {
-    "context": "Pane",
+    "context": "Pane && (os == linux || os == window)",
     "bindings": {
       "ctrl-w": null,
+    }
+  },
+  {
+    "context": "Pane && os == macos",
+    "bindings": {
+      "cmd-w": null,
+    }
+  },
+
+  // Split
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "|": "pane::SplitRight",
+      "_": "pane::SplitDown",
     }
   }
 ]

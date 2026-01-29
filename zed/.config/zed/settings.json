@@ -42,7 +42,7 @@
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 15,
+  "ui_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
@@ -64,9 +64,6 @@
       "enabled": true,
     },
   },
-  "file_finder": {
-    "modal_max_width": "large"
-  },
   "project_panel": {
     "dock": "left"
   },
@@ -83,7 +80,7 @@
 
   // Terminal
   "terminal": {
-    "font_size": 12,
+    "font_size": 13,
     "line_height": "standard",
     "default_height": 400,
     "font_family": "CaskaydiaMono Nerd Font Mono"
