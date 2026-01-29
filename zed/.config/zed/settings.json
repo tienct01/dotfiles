@@ -13,9 +13,10 @@
 
   // Agent AI Setup
   "agent": {
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-5-mini"
+      "model": "gpt-4.1"
     },
     "favorite_models": [],
     "model_parameters": []
@@ -69,14 +70,10 @@
   },
 
   // Buffer config
-  "buffer_font_size": 14,
+  "buffer_font_size": 15,
   "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
   "buffer_line_height": "standard",
-  "buffer_font_weight": 400,
-  "inlay_hints": {
-    "enabled": true,
-    "show_type_hints": false,
-  },
+  "buffer_font_weight": 500,
 
   // Terminal
   "terminal": {
