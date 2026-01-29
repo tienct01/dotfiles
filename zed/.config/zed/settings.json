@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  // AI
+  "disable_ai": false,
+  "show_edit_predictions": false,
+
+  // Agent AI Setup
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
@@ -91,10 +96,6 @@
   "vim": {
     "toggle_relative_line_numbers": true,
   },
-
-  // AI
-  "disable_ai": false,
-  "show_edit_predictions": false,
 
   // Prettier format
   "formatter": "prettier",
