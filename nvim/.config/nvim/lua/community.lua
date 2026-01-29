@@ -12,7 +12,7 @@ return {
 	{ import = "astrocommunity.pack.html-css" },
 	{ import = "astrocommunity.pack.prettier" },
 	{ import = "astrocommunity.pack.eslint" },
-	-- { import = "astrocommunity.pack.prisma" },
+	{ import = "astrocommunity.pack.prisma" },
 	-- { import = "astrocommunity.pack.docker" },
 	-- { import = "astrocommunity.pack.go" },
 

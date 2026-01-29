@@ -4,7 +4,6 @@ font-thicken = true
 font-size = 10 
 
 # Background
-background-opacity = 0.9
 window-padding-x = 8
 background-blur = true
 
