@@ -39,9 +39,9 @@
   "icon_theme": "Material Icon Theme",
   "ui_font_size": 15,
   "theme": {
-    "mode": "dark",
+    "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Catppuccin Frappé"
   },
   "ui_font_family": "CaskaydiaMono Nerd Font",
   "ui_font_weight": 500,
@@ -58,6 +58,12 @@
     "inline": {
       "enabled": true,
     },
+  },
+  "file_finder": {
+    "modal_max_width": "large"
+  },
+  "project_panel": {
+    "dock": "left"
   },
 
   // Buffer config
