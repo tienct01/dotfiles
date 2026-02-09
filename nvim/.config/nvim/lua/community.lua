@@ -22,7 +22,11 @@ return {
 	-- Completion
 	{ import = "astrocommunity.recipes.disable-borders" },
 
+	-- AI
+	{ import = "astrocommunity.ai.opencode-nvim" },
+
 	-- Others
 	-- { import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
+	{ import = "astrocommunity.git.codediff-nvim" }
 }

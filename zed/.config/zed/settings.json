@@ -8,6 +8,11 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "disable_ai": false,
   "show_edit_predictions": false,
 
@@ -16,14 +21,31 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "google",
-      "model": "gemini-2.5-flash"
+      "model": "gemini-2.5-flash-lite"
     },
     "favorite_models": [],
     "model_parameters": []
   },
+
   "ssh_connections": [
     {
       "host": "banner-test",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/var"
+          ]
+        },
+        {
+          "paths": [
+            "/var/www/html"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "banner-prod",
       "args": [],
       "projects": [
         {
@@ -34,8 +56,9 @@
       ]
     }
   ],
-  "features": {
-    "edit_prediction_provider": "none"
+
+  "edit_predictions": {
+    "provider": "none",
   },
 
   // UI Configuration
@@ -47,9 +70,9 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Frappé"
+    "dark": "Catppuccin Mocha"
   },
-  "ui_font_family": "CaskaydiaMono Nerd Font",
+  "ui_font_family": "SauceCodePro Nerd Font",
   "ui_font_weight": 500,
   "tabs": {
     "git_status":true,
@@ -70,8 +93,8 @@
   },
 
   // Buffer config
-  "buffer_font_size": 14,
-  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
+  "buffer_font_size": 15,
+  "buffer_font_family": "SauceCodePro Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 500,
 
