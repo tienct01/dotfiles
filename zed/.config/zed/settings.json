@@ -11,6 +11,11 @@
   "edit_predictions": {
     "provider": "none"
   },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "disable_ai": false,
   "show_edit_predictions": false,
 
@@ -24,9 +29,27 @@
     "favorite_models": [],
     "model_parameters": []
   },
+
+  // SSH setup
   "ssh_connections": [
     {
       "host": "banner-test",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/var"
+          ]
+        },
+        {
+          "paths": [
+            "/var/www/html"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "banner-prod",
       "args": [],
       "projects": [
         {
@@ -49,7 +72,7 @@
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
   },
-  "ui_font_family": "CaskaydiaMono Nerd Font",
+  "ui_font_family": "SauceCodePro Nerd Font Propo",
   "ui_font_weight": 500,
   "tabs": {
     "git_status":true,
@@ -70,8 +93,8 @@
   },
 
   // Buffer config
-  "buffer_font_size": 14,
-  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
+  "buffer_font_size": 15,
+  "buffer_font_family": "SauceCodePro Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 500,
 
