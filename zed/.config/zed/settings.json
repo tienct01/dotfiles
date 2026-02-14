@@ -21,7 +21,7 @@
 
   // Agent AI Setup
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5"
