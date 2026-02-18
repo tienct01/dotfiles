@@ -13,7 +13,8 @@
   },
   "agent_servers": {
     "opencode": {
-      "type": "registry"
+      "type": "registry",
+      "default_mode": "plan",
     }
   },
   "disable_ai": false,
@@ -24,7 +25,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
+      "model": "claude-sonnet-4.5",
     },
     "favorite_models": [],
     "model_parameters": []
