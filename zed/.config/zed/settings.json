@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "diff_view_style": "split",
   "edit_predictions": {
     "provider": "none"
   },
