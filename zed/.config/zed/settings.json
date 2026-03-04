@@ -26,7 +26,7 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5",
+      "model": "claude-sonnet-4.6",
     },
     "favorite_models": [],
     "model_parameters": []
@@ -72,7 +72,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Catppuccin Frappé"
   },
   "ui_font_family": "SauceCodePro Nerd Font Propo",
   "ui_font_weight": 500,

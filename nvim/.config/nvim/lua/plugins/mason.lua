@@ -11,6 +11,7 @@ return {
       ensure_installed = {
         "graphql-language-service-cli",
         "shopify-cli",
+        "gitlab-ci-ls"
       },
     },
   },

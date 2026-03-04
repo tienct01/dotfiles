@@ -129,3 +129,6 @@ export PATH=$HOME/.local/bin:$PATH
 
 # opencode
 export PATH=/Users/tiendvd/.opencode/bin:$PATH
+
+export PATH="$HOME/.cargo/bin:$PATH"
+

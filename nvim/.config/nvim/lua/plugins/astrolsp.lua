@@ -43,6 +43,7 @@ return {
 
 			opts.servers = opts.servers or {}
 			table.insert(opts.servers, "shopify_theme_ls")
+			table.insert(opts.servers, "gitlab_ci_ls")
 
 			opts.config = require("astrocore").extend_tbl(opts.config or {}, {
 				graphql = {
@@ -55,6 +56,7 @@ return {
 					root_dir = util.root_pattern("shopify.app.toml", "shopify.theme.toml", ".shopifyignore", ".theme-check.yml", ".theme-check.yaml"),
 				},
 			})
+
 		end,
 	},
 }
