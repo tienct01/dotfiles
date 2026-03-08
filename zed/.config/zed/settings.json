@@ -26,7 +26,7 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.6",
+      "model": "claude-sonnet-4.5",
     },
     "favorite_models": [],
     "model_parameters": []
@@ -68,7 +68,7 @@
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "theme": {
     "mode": "system",
     "light": "Tokyo Night Light",
@@ -95,7 +95,7 @@
   },
 
   // Buffer config
-  "buffer_font_size": 15,
+  "buffer_font_size": 14,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 500,
