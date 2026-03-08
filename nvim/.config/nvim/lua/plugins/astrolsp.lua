@@ -42,7 +42,10 @@ return {
 			local util = require("lspconfig.util")
 
 			opts.servers = opts.servers or {}
+
 			table.insert(opts.servers, "shopify_theme_ls")
+			
+			table.insert(opts.servers, "gitlab_ci_ls")
 
 			opts.config = require("astrocore").extend_tbl(opts.config or {}, {
 				graphql = {

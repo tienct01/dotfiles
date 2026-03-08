@@ -71,10 +71,10 @@
   "ui_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "light": "Tokyo Night Light",
+    "dark": "Tokyo Night"
   },
-  "ui_font_family": "SauceCodePro Nerd Font Propo",
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_weight": 500,
   "tabs": {
     "git_status":true,
@@ -96,7 +96,7 @@
 
   // Buffer config
   "buffer_font_size": 15,
-  "buffer_font_family": "SauceCodePro Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_line_height": "standard",
   "buffer_font_weight": 500,
 
@@ -105,7 +105,7 @@
     "font_size": 13,
     "line_height": "standard",
     "default_height": 400,
-    "font_family": "CaskaydiaMono Nerd Font Mono"
+    "font_family": "JetBrainsMono Nerd Font Mono"
   },
 
   "cursor_blink": false,
