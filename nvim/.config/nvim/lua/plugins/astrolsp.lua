@@ -58,6 +58,7 @@ return {
 					root_dir = util.root_pattern("shopify.app.toml", "shopify.theme.toml", ".shopifyignore", ".theme-check.yml", ".theme-check.yaml"),
 				},
 			})
+
 		end,
 	},
 }

@@ -130,6 +130,8 @@ export PATH=$HOME/.local/bin:$PATH
 # opencode
 export PATH=/Users/tiendvd/.opencode/bin:$PATH
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/tiendvd/.docker/completions $fpath)
 autoload -Uz compinit
