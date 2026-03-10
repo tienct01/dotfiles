@@ -23,7 +23,7 @@
 
   // Agent AI Setup
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5",
@@ -75,6 +75,7 @@
     "dark": "Catppuccin Frappé"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_weight": 500,
   "tabs": {
     "git_status":true,
     "show_diagnostics": "errors",
