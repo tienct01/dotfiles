@@ -43,22 +43,36 @@ return {
 
 			opts.servers = opts.servers or {}
 
-			table.insert(opts.servers, "shopify_theme_ls")
-			
-			table.insert(opts.servers, "gitlab_ci_ls")
-
+			--- Graphql
 			opts.config = require("astrocore").extend_tbl(opts.config or {}, {
 				graphql = {
 					filetypes = { "graphql", "typescriptreact", "javascriptreact", "typescript" },
 				},
 			})
 
+			--- Shopify theme ls 
+			table.insert(opts.servers, "shopify_theme_ls")
+
 			opts.config = require("astrocore").extend_tbl(opts.config or {}, {
 				shopify_theme_ls = {
-					root_dir = util.root_pattern("shopify.app.toml", "shopify.theme.toml", ".shopifyignore", ".theme-check.yml", ".theme-check.yaml"),
+					root_dir = util.root_pattern(
+						"shopify.app.toml",
+						"shopify.theme.toml",
+						".shopifyignore",
+						".theme-check.yml",
+						".theme-check.yaml"
+					),
 				},
 			})
 
+			--- Gitlab ci ls
+			vim.filetype.add({
+				pattern = {
+					["%.gitlab%-ci%.ya?ml"] = "yaml.gitlab",
+				},
+			})
+
+			table.insert(opts.servers, "gitlab_ci_ls")
 		end,
 	},
 }
