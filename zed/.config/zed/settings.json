@@ -68,11 +68,11 @@
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 15,
+  "ui_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Frappé"
+    "light": "Tokyo Night Light",
+    "dark": "Tokyo Night Storm"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_weight": 500,
