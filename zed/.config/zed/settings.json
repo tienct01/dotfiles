@@ -71,8 +71,8 @@
   "ui_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "Tokyo Night Light",
-    "dark": "Tokyo Night Storm"
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Frappé"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_weight": 500,
