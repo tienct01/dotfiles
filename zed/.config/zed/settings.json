@@ -26,7 +26,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5",
+      "model": "claude-opus-4.6",
     },
     "favorite_models": [],
     "model_parameters": []
@@ -68,14 +68,16 @@
     "tree_view": true
   },
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Frappé"
   },
-  "ui_font_family": "JetBrainsMono Nerd Font",
-  "ui_font_weight": 500,
+  "agent_buffer_font_size": 14,
+  "agent_ui_font_size": 14,
+  "ui_font_size": 16,
+  "ui_font_family": "SauceCodePro Nerd Font",
+  "ui_font_weight": 600,
   "tabs": {
     "git_status":true,
     "show_diagnostics": "errors",
@@ -96,14 +98,15 @@
 
   // Buffer config
   "buffer_font_size": 14,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "SauceCodePro Nerd Font Mono",
+  "buffer_font_weight": 600,
   "buffer_line_height": "standard",
 
   // Terminal
   "terminal": {
     "font_size": 13,
     "line_height": "standard",
-    "font_family": "JetBrainsMono Nerd Font Mono"
+    "font_family": "SauceCodePro Nerd Font Mono"
   },
 
   "cursor_blink": false,
