@@ -1,7 +1,6 @@
 # Font
 font-family = "CaskaydiaCove Nerd Font Propo"
 font-thicken = true
-font-size = 13 
 
 # Background
 window-padding-x = 8
