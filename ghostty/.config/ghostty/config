@@ -1,6 +1,7 @@
 # Font
-font-family = "JetbrainsMono Nerd Font Mono"
+font-family = "CaskaydiaCove Nerd Font Propo"
 font-size = 13 
+font-thicken = true
 
 # Background
 window-padding-x = 8
