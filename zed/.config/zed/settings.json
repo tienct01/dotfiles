@@ -26,7 +26,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-opus-4.6",
+      "model": "gemini-3.1-pro-preview",
     },
     "favorite_models": [],
     "model_parameters": []
@@ -60,6 +60,11 @@
           ]
         }
       ]
+    },
+    {
+      "host": "support-tool-prod",
+      "args": [],
+      "projects": []
     }
   ],
 
@@ -76,8 +81,8 @@
   "agent_buffer_font_size": 14,
   "agent_ui_font_size": 14,
   "ui_font_size": 16,
-  "ui_font_family": "SauceCodePro Nerd Font",
-  "ui_font_weight": 600,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_weight": 400,
   "tabs": {
     "git_status":true,
     "show_diagnostics": "errors",
@@ -98,15 +103,15 @@
 
   // Buffer config
   "buffer_font_size": 14,
-  "buffer_font_family": "SauceCodePro Nerd Font Mono",
-  "buffer_font_weight": 600,
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_weight": 400,
   "buffer_line_height": "standard",
 
   // Terminal
   "terminal": {
     "font_size": 13,
     "line_height": "standard",
-    "font_family": "SauceCodePro Nerd Font Mono"
+    "font_family": "JetBrainsMono Nerd Font Mono"
   },
 
   "cursor_blink": false,
@@ -118,7 +123,7 @@
   },
 
   // Prettier format
-  "formatter": "prettier",
+  "formatter": "auto",
   "format_on_save": "off",
   "prettier": {
     "allowed": true
