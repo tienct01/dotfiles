@@ -65,6 +65,11 @@
       "host": "support-tool-prod",
       "args": [],
       "projects": []
+    },
+    {
+      "host": "banner-public-prod",
+      "args": [],
+      "projects": []
     }
   ],
 
