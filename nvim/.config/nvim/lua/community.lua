@@ -13,7 +13,8 @@ return {
 	{ import = "astrocommunity.pack.prettier" },
 	{ import = "astrocommunity.pack.eslint" },
 	{ import = "astrocommunity.pack.prisma" },
-	-- { import = "astrocommunity.pack.docker" },
+	{ import = "astrocommunity.pack.docker" },
+	{ import = "astrocommunity.pack.python" },
 	-- { import = "astrocommunity.pack.go" },
 
 	-- Color schemes

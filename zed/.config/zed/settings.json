@@ -69,7 +69,13 @@
     {
       "host": "banner-public-prod",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/var/www/html/banner-public-api"
+          ]
+        }
+      ]
     }
   ],
 
@@ -87,7 +93,7 @@
   "agent_ui_font_size": 14,
   "ui_font_size": 16,
   "ui_font_family": "JetBrainsMono Nerd Font",
-  "ui_font_weight": 400,
+  "ui_font_weight": 600,
   "tabs": {
     "git_status":true,
     "show_diagnostics": "errors",
@@ -109,7 +115,7 @@
   // Buffer config
   "buffer_font_size": 14,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "buffer_font_weight": 400,
+  "buffer_font_weight": 600,
   "buffer_line_height": "standard",
 
   // Terminal
