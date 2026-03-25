@@ -1,17 +1,17 @@
 # Font
-font-family = "0xProto Nerd Font Mono"
-font-size = 13 
+font-family = "0xProto Nerd Font"
+font-size = 12 
 font-thicken = true
 
 # Background
 window-padding-x = 8
 background-blur = true
-background-opacity = 0.8
 
 # Theme
 theme = Catppuccin Mocha 
 
 # Window
 window-decoration = client 
+
 
 command = zsh
