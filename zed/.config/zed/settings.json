@@ -64,7 +64,13 @@
     {
       "host": "support-tool-prod",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/var/www/html/updateBannerPopupRepo.sh"
+          ]
+        }
+      ]
     },
     {
       "host": "banner-public-prod",
@@ -92,7 +98,7 @@
   "agent_buffer_font_size": 14,
   "agent_ui_font_size": 14,
   "ui_font_size": 16,
-  "ui_font_family": "0xProto Nerd Font",
+  "ui_font_family": "JetbrainsMono Nerd Font",
   "ui_font_weight": 400,
   "tabs": {
     "git_status":true,
@@ -114,7 +120,7 @@
 
   // Buffer config
   "buffer_font_size": 14,
-  "buffer_font_family": "0xProto Nerd Font Mono",
+  "buffer_font_family": "JetbrainsMono Nerd Font Mono",
   "buffer_font_weight": 400,
   "buffer_line_height": "standard",
 
@@ -122,7 +128,7 @@
   "terminal": {
     "font_size": 13,
     "line_height": "standard",
-    "font_family": "0xProto Nerd Font Mono"
+    "font_family": "JetbrainsMono Nerd Font Mono"
   },
 
   "cursor_blink": false,
