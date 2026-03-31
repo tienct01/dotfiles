@@ -8,3 +8,4 @@ foo.*
 *.log
 data
 zed/.config/zed/prompts
+zshrc/.zshenv
