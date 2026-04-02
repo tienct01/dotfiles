@@ -23,7 +23,7 @@
 
   // Agent AI Setup
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
@@ -76,6 +76,11 @@
       "host": "banner-public-prod",
       "args": [],
       "projects": [
+        {
+          "paths": [
+            "/var/www/html"
+          ]
+        },
         {
           "paths": [
             "/var/www/html/banner-public-api"
