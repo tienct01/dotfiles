@@ -5,12 +5,20 @@
 
 ---@type LazySpec
 return {
-  {
-    "AstroNvim/astroui",
-    ---@type AstroUIOpts
-    opts = {
-      -- change colorscheme
-      colorscheme = "tokyonight",
-    },
-  },
+	{
+		"AstroNvim/astroui",
+		---@type AstroUIOpts
+		opts = {
+			-- change colorscheme
+			colorscheme = "catppuccin",
+		},
+	},
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000,
+		opts = {
+			flavour = "macchiato",
+		},
+	},
 }
