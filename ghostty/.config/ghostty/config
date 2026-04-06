@@ -13,7 +13,7 @@ background-blur = true
 theme = Catppuccin Mocha 
 
 # Window
-window-decoration = server 
+window-decoration = client 
 
 
 command = zsh
