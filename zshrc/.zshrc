@@ -136,4 +136,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 fpath=(/Users/tiendvd/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
+
+# zoxide
+eval "$(zoxide init zsh)"
 # End of Docker CLI completions

@@ -8,12 +8,14 @@ freetype-load-flags = no-hinting
 # Background
 window-padding-x = 8
 background-blur = true
+background-blur-radius = 20
+background-opacity = 0.85
 
 # Theme
 theme = Catppuccin Mocha 
 
 # Window
-window-decoration = client 
+window-decoration = auto
 
 
 command = zsh

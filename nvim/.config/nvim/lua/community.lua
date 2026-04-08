@@ -15,6 +15,7 @@ return {
 	{ import = "astrocommunity.pack.prisma" },
 	{ import = "astrocommunity.pack.docker" },
 	{ import = "astrocommunity.pack.python" },
+	{ import = "astrocommunity.pack.markdown"},
 	-- { import = "astrocommunity.pack.go" },
 
 	-- Color schemes
@@ -28,6 +29,7 @@ return {
 
 	-- Others
 	-- { import = "astrocommunity.completion.copilot-vim" },
+	{ import = "astrocommunity.markdown-and-latex.markview-nvim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
 	{ import = "astrocommunity.git.codediff-nvim" },
 	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
