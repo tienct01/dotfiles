@@ -9,7 +9,7 @@ freetype-load-flags = no-hinting
 window-padding-x = 8
 background-blur = true
 background-blur-radius = 20
-background-opacity = 0.85
+background-opacity = 0.7
 
 # Theme
 theme = Catppuccin Mocha 
