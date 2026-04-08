@@ -124,19 +124,21 @@ eval "$(starship init zsh)"
 # opencode
 export PATH=/home/tiendvd/.opencode/bin:$PATH
 
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$HOME/.local/bin:$PATH
+# Golang binary
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
-export PATH=/Users/tiendvd/.opencode/bin:$PATH
+export PATH="/Users/tiendvd/.opencode/bin:$PATH"
 
+# Cargo rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/tiendvd/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
+# End of Docker CLI completions
 
 # zoxide
-eval "$(zoxide init zsh)"
-# End of Docker CLI completions
+eval "$(zoxide init --cmd cd zsh)"
