@@ -126,6 +126,8 @@ export PATH=/home/tiendvd/.opencode/bin:$PATH
 
 # Golang binary
 export PATH="$PATH:/usr/local/go/bin"
+export PATH="$HOME/go/bin:$PATH"
+
 export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
@@ -142,3 +144,7 @@ compinit
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+fpath=(~/.zsh/completions $fpath)
+autoload -U compinit && compinit
+fpath=(~/.zsh/completions $fpath)
+autoload -U compinit && compinit
