@@ -1,9 +1,8 @@
 # Font
-font-family = "JetbrainsMono Nerd Font Mono"
+font-family = "0xProto Nerd Font"
 font-size = 13 
 adjust-cell-height = 8%
 adjust-cell-width = 4%
-freetype-load-flags = no-hinting
 
 # Background
 window-padding-x = 8
