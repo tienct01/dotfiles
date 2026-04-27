@@ -31,5 +31,4 @@ return {
 	-- { import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
 	{ import = "astrocommunity.git.codediff-nvim" },
-	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 }
