@@ -4,12 +4,12 @@ return {
     opts.statusline = opts.statusline or {}
 
     -- show full file path
-    opts.statusline[2] = {
+    table.insert(opts.statusline, 3, {
       provider = function()
         return vim.fn.expand("%:~:.") -- relative path with ~
       end,
       hl = { fg = "cyan" },       -- optional color
-    }
+    })
 
     return opts
   end,
