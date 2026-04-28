@@ -11,13 +11,13 @@
   "diff_view_style": "split",
 
   "edit_predictions": {
-    "provider": "none"
+    "provider": "none",
   },
   "agent_servers": {
     "opencode": {
       "type": "registry",
       "default_mode": "plan",
-    }
+    },
   },
   "disable_ai": false,
   "show_edit_predictions": false,
@@ -33,7 +33,7 @@
       "model": "gemini-3.1-pro-preview",
     },
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
 
   // SSH setup
@@ -43,61 +43,49 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/var"
-          ]
+          "paths": ["/var"],
         },
         {
-          "paths": [
-            "/var/www/html"
-          ]
-        }
-      ]
+          "paths": ["/var/www/html"],
+        },
+      ],
     },
     {
       "host": "banner-prod",
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/var/www/html"
-          ]
-        }
-      ]
+          "paths": ["/var/www/html"],
+        },
+      ],
     },
     {
       "host": "support-tool-prod",
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/var/www/html/updateBannerPopupRepo.sh"
-          ]
-        }
-      ]
+          "paths": ["/var/www/html/updateBannerPopupRepo.sh"],
+        },
+      ],
     },
     {
       "host": "banner-public-prod",
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/var/www/html"
-          ]
+          "paths": ["/var/www/html"],
         },
         {
-          "paths": [
-            "/var/www/html/banner-public-api"
-          ]
-        }
-      ]
-    }
+          "paths": ["/var/www/html/banner-public-api"],
+        },
+      ],
+    },
   ],
 
   // UI Configuration
   "git_panel": {
     "dock": "right",
-    "tree_view": true
+    "tree_view": true,
   },
 
   "outline_panel": {
@@ -105,29 +93,37 @@
   },
 
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "right",
   },
 
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
+    "indent_size": 14,
+    "entry_spacing": "standard",
   },
 
   "icon_theme": {
     "mode": "dark",
     "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
+    "dark": "Material Icon Theme",
   },
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Macchiato",
   },
 
   "tabs": {
-    "git_status":true,
+    "git_status": true,
     "show_diagnostics": "errors",
     "file_icons": true,
     "show_close_button": "always",
+  },
+
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true,
+    }
   },
 
   "indent_guides": {
@@ -141,12 +137,11 @@
     },
   },
 
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "ui_font_family": "JetBrainsMono Nerd Font",
-  "ui_font_weight": 400,
 
   // Buffer config
-  "buffer_font_size": 14,
+  "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_font_weight": 400,
   "buffer_line_height": "standard",
@@ -154,8 +149,11 @@
   // Terminal
   "terminal": {
     "font_size": 13,
-    "line_height": "standard",
-    "font_family": "JetBrainsMono Nerd Font Mono"
+    "line_height": {
+      "custom": 1.2,
+    },
+    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_weight": 300,
   },
 
   "cursor_blink": false,
@@ -166,13 +164,13 @@
     "toggle_relative_line_numbers": true,
     "highlight_on_yank_duration": 200,
     "use_smartcase_find": true,
-    "use_regex_search": true
+    "use_regex_search": true,
   },
 
   // Prettier format
   "formatter": "auto",
   "format_on_save": "off",
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
 }
