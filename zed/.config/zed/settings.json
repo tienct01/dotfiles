@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "cli_default_open_behavior": "new_window",
   "diff_view_style": "split",
 
   "edit_predictions": {
@@ -25,9 +26,9 @@
   // Agent AI Setup
   "agent": {
     "dock": "left",
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
-      "effort": "high",
+      "effort": "medium",
       "enable_thinking": true,
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
@@ -110,7 +111,7 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato",
+    "dark": "Ayu Mirage",
   },
 
   "tabs": {
