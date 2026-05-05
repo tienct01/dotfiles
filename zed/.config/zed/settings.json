@@ -27,8 +27,8 @@
     "dock": "left",
     "default_profile": "ask",
     "default_model": {
-      "effort": "high",
-      "enable_thinking": true,
+      "effort": "medium",
+      "enable_thinking": false,
       "provider": "copilot_chat",
       "model": "gemini-3.1-pro-preview",
     },
@@ -84,6 +84,7 @@
 
   // UI Configuration
   "git_panel": {
+    "sort_by_path": true,
     "dock": "right",
     "tree_view": true,
   },
@@ -142,9 +143,14 @@
 
   // Buffer config
   "buffer_font_size": 13,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 400,
-  "buffer_line_height": "standard",
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "buffer_font_features": {
+    "calt": false,
+  },
 
   // Terminal
   "terminal": {
