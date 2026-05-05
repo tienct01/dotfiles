@@ -144,7 +144,3 @@ compinit
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
-fpath=(~/.zsh/completions $fpath)
-autoload -U compinit && compinit
-fpath=(~/.zsh/completions $fpath)
-autoload -U compinit && compinit
