@@ -85,6 +85,7 @@
 
   // UI Configuration
   "git_panel": {
+    "sort_by_path": true,
     "dock": "right",
     "tree_view": true,
   },
@@ -145,7 +146,12 @@
   "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 400,
-  "buffer_line_height": "standard",
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "buffer_font_features": {
+    "calt": false,
+  },
 
   // Terminal
   "terminal": {
