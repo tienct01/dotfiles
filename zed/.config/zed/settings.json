@@ -28,10 +28,10 @@
     "dock": "left",
     "default_profile": "write",
     "default_model": {
-      "effort": "medium",
+      "effort": "high",
       "enable_thinking": true,
-      "provider": "zed.dev",
-      "model": "gpt-5.4",
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini",
     },
     "favorite_models": [],
     "model_parameters": [],
@@ -146,9 +146,7 @@
   "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 400,
-  "buffer_line_height": {
-    "custom": 1.5
-  },
+  "buffer_line_height": "standard",
   "buffer_font_features": {
     "calt": false,
   },
