@@ -1,6 +1,8 @@
 # Font
-font-family = "SauceCodePro Nerd Font"
-font-size = 14 
+font-family = "JetbrainsMono Nerd Font Mono"
+font-size = 13 
+adjust-cell-height = 8%
+adjust-cell-width = 4%
 freetype-load-flags = no-hinting
 
 # Background
