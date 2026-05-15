@@ -1,6 +1,6 @@
 # Font
-font-family = "JetbrainsMono Nerd Font Mono"
-font-size = 13 
+font-family = "SauceCodePro Nerd Font"
+font-size = 14 
 freetype-load-flags = no-hinting
 
 # Background
