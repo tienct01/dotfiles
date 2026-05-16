@@ -143,11 +143,11 @@
   "ui_font_family": "JetBrainsMono Nerd Font",
 
   // Buffer config
-  "buffer_font_size": 14,
+  "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 200,
   "buffer_line_height": {
-    "custom": 1.5
+    "custom": 1.2
   },
   "buffer_font_features": {
     "calt": false,
