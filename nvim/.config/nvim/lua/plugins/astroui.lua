@@ -18,7 +18,7 @@ return {
 		name = "catppuccin",
 		priority = 1000,
 		opts = {
-			flavour = "macchiato",
+			flavour = "frappe",
 		},
 	},
 }

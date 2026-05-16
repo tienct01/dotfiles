@@ -1,8 +1,6 @@
 # Font
 font-family = "JetbrainsMono Nerd Font Mono"
 font-size = 13 
-adjust-cell-height = 8%
-adjust-cell-width = 4%
 freetype-load-flags = no-hinting
 
 # Background
@@ -12,7 +10,7 @@ background-blur-radius = 20
 background-opacity = 0.9
 
 # Theme
-theme = Catppuccin Mocha 
+theme = Catppuccin Frappe 
 
 # Window
 window-decoration = auto

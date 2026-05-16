@@ -112,7 +112,7 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato",
+    "dark": "Catppuccin Frappé",
   },
 
   "tabs": {
@@ -145,7 +145,7 @@
   // Buffer config
   "buffer_font_size": 14,
   "buffer_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_weight": 400,
+  "buffer_font_weight": 200,
   "buffer_line_height": {
     "custom": 1.5
   },
