@@ -145,7 +145,7 @@
   // Buffer config
   "buffer_font_size": 13,
   "buffer_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_weight": 200,
+  "buffer_font_weight": 400,
   "buffer_line_height": {
     "custom": 1.4
   },
