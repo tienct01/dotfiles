@@ -14,7 +14,6 @@ return {
 	{ import = "astrocommunity.pack.eslint" },
 	{ import = "astrocommunity.pack.prisma" },
 	{ import = "astrocommunity.pack.docker" },
-	{ import = "astrocommunity.pack.python" },
 	{ import = "astrocommunity.pack.markdown"},
 	-- { import = "astrocommunity.pack.go" },
 

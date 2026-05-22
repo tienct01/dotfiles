@@ -1,3 +1,13 @@
 {
-  "$schema": "https://opencode.ai/config.json"
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "shopify": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@shopify/dev-mcp@latest"
+      ]
+    }
+  }
 }
