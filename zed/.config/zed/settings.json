@@ -16,6 +16,11 @@
   },
   "agent_servers": {
     "opencode": {
+      "favorite_config_option_values": {
+        "effort": [
+          "medium"
+        ]
+      },
       "type": "registry",
       "default_mode": "plan",
     },
@@ -112,7 +117,7 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Frappé",
+    "dark": "Catppuccin Macchiato",
   },
 
   "tabs": {
