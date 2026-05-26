@@ -15,6 +15,7 @@ return {
 	{ import = "astrocommunity.pack.prisma" },
 	{ import = "astrocommunity.pack.docker" },
 	{ import = "astrocommunity.pack.markdown"},
+	{ import = "astrocommunity.pack.json" },
 	-- { import = "astrocommunity.pack.go" },
 
 	-- Color schemes

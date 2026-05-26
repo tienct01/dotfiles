@@ -50,9 +50,8 @@ return {
 				},
 			})
 
-			--- Shopify theme ls 
+			--- Shopify theme ls
 			table.insert(opts.servers, "shopify_theme_ls")
-
 			opts.config = require("astrocore").extend_tbl(opts.config or {}, {
 				shopify_theme_ls = {
 					root_dir = util.root_pattern(
@@ -64,6 +63,7 @@ return {
 					),
 				},
 			})
+			--- End Shopify theme ls
 
 			--- Gitlab ci ls
 			vim.filetype.add({
@@ -71,8 +71,8 @@ return {
 					["%.gitlab%-ci%.ya?ml"] = "yaml.gitlab",
 				},
 			})
-
 			table.insert(opts.servers, "gitlab_ci_ls")
+			--- End Gitlab ci ls
 		end,
 	},
 }
