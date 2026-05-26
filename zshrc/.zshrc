@@ -144,3 +144,10 @@ compinit
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# bun completions
+[ -s "/Users/tiendvd/.bun/_bun" ] && source "/Users/tiendvd/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
