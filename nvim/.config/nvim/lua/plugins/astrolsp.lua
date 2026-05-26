@@ -33,6 +33,15 @@ return {
 				--   return true
 				-- end
 			},
+			config = {
+				jsonls = {
+					settings = {
+						json = {
+							schemas = require("schemastore").json.schemas(),
+						},
+					},
+				},
+			},
 		},
 	},
 	{
@@ -74,5 +83,9 @@ return {
 			table.insert(opts.servers, "gitlab_ci_ls")
 			--- End Gitlab ci ls
 		end,
+	},
+	{
+		"b0o/SchemaStore.nvim",
+		lazy = true,
 	},
 }
