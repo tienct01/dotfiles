@@ -6,8 +6,6 @@ freetype-load-flags = no-hinting
 # Background
 window-padding-x = 8
 background-blur = true
-background-blur-radius = 20
-background-opacity = 0.9
 
 # Theme
 theme = Catppuccin Frappe 
