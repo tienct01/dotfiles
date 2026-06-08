@@ -20,5 +20,11 @@ return {
 		opts = {
 			flavour = "frappe",
 		},
-	}
+	},
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 }

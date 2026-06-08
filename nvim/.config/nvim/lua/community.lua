@@ -21,8 +21,8 @@ return {
 	-- Color schemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
-	-- Completion
-	{ import = "astrocommunity.recipes.disable-borders" },
+	-- -- Completion
+	-- { import = "astrocommunity.recipes.disable-borders" },
 
 	-- AI
 	{ import = "astrocommunity.ai.opencode-nvim" },
