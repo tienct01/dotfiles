@@ -1,0 +1,19 @@
+personality = "pragmatic"
+model = "gpt-5.5"
+model_reasoning_effort = "xhigh"
+approvals_reviewer = "auto_review"
+service_tier = "fast"
+
+[projects."/home/tiendvd/Documents/BSS/banner-agent"]
+trust_level = "trusted"
+
+[projects."/home/tiendvd/Documents/BSS/BannerPopup/banner-popup"]
+trust_level = "trusted"
+
+[tui]
+theme = "catppuccin-frappe"
+status_line = ["model", "reasoning", "five-hour-limit", "used-tokens", "task-progress"]
+status_line_use_colors = true
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
