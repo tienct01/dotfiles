@@ -1,6 +1,6 @@
 personality = "pragmatic"
 model = "gpt-5.5"
-model_reasoning_effort = "xhigh"
+model_reasoning_effort = "medium"
 approvals_reviewer = "auto_review"
 service_tier = "fast"
 
@@ -8,6 +8,9 @@ service_tier = "fast"
 trust_level = "trusted"
 
 [projects."/home/tiendvd/Documents/BSS/BannerPopup/banner-popup"]
+trust_level = "trusted"
+
+[projects."/home/tiendvd/Documents/MyProject/langgraph-example"]
 trust_level = "trusted"
 
 [tui]
