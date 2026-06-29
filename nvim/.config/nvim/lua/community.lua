@@ -14,7 +14,7 @@ return {
 	{ import = "astrocommunity.pack.eslint" },
 	{ import = "astrocommunity.pack.prisma" },
 	{ import = "astrocommunity.pack.docker" },
-	{ import = "astrocommunity.pack.markdown"},
+	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.pack.json" },
 	-- { import = "astrocommunity.pack.go" },
 
@@ -31,4 +31,5 @@ return {
 	-- { import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
 	{ import = "astrocommunity.git.codediff-nvim" },
+	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 }
