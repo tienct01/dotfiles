@@ -6,6 +6,9 @@
 ---@type LazySpec
 return {
 	{
+		"b0o/schemastore.nvim",
+	},
+	{
 		"AstroNvim/astrolsp",
 		---@type AstroLSPOpts
 		opts = {
@@ -32,6 +35,20 @@ return {
 				-- filter = function(client) -- fully override the default formatting function
 				--   return true
 				-- end
+			},
+
+			servers = {
+				"jsonls",
+			},
+			config = {
+				jsonls = {
+					settings = {
+						json = {
+							schemas = require("schemastore").json.schemas(),
+							validate = { enable = true },
+						},
+					},
+				},
 			},
 		},
 	},
@@ -74,5 +91,5 @@ return {
 			table.insert(opts.servers, "gitlab_ci_ls")
 			--- End Gitlab ci ls
 		end,
-	}
+	},
 }

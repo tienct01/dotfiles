@@ -22,7 +22,7 @@ return {
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
 	-- Completion
-	{ import = "astrocommunity.recipes.disable-borders" },
+	-- { import = "astrocommunity.recipes.disable-borders" },
 
 	-- Others
 	-- { import = "astrocommunity.completion.copilot-vim" },

@@ -9,9 +9,10 @@ return {
     opts = {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
+        "json-lsp",
         "graphql-language-service-cli",
         "shopify-cli",
-        "gitlab-ci-ls"
+        "gitlab-ci-ls",
       },
     },
   },
