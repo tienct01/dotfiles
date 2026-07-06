@@ -116,8 +116,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato",
+    "light": "Ayu Light",
+    "dark": "Ayu Mirage",
   },
 
   "tabs": {
@@ -144,7 +144,7 @@
     },
   },
 
-  "ui_font_size": 15,
+  "ui_font_size": 13,
   "ui_font_family": "JetBrainsMono Nerd Font",
 
   // Buffer config
