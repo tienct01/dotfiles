@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "skills": {
+    "deep-agents-core": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-core/SKILL.md",
+      "skillFolderHash": "9e46674077d75bcdf5f0cf174357ac9024e744bb",
+      "installedAt": "2026-07-12T11:53:51.579Z",
+      "updatedAt": "2026-07-12T11:53:51.579Z"
+    },
+    "deep-agents-memory": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-memory/SKILL.md",
+      "skillFolderHash": "3b4f2f07c1ae04f68763c101844e704c5555381b",
+      "installedAt": "2026-07-12T11:53:51.583Z",
+      "updatedAt": "2026-07-12T11:53:51.583Z"
+    },
+    "deep-agents-orchestration": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-orchestration/SKILL.md",
+      "skillFolderHash": "3f34bdfaee45686ec98e8630c96ec02adfcde549",
+      "installedAt": "2026-07-12T11:53:51.583Z",
+      "updatedAt": "2026-07-12T11:53:51.583Z"
+    },
+    "ecosystem-primer": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/ecosystem-primer/SKILL.md",
+      "skillFolderHash": "c1fbd726bca5618f6ecd2759e4a444bed56e5823",
+      "installedAt": "2026-07-12T11:53:51.584Z",
+      "updatedAt": "2026-07-12T11:53:51.584Z"
+    },
+    "langchain-dependencies": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-dependencies/SKILL.md",
+      "skillFolderHash": "ebdb8abc2c1ee9cea5da98f08043ce01e55a2b43",
+      "installedAt": "2026-07-12T11:53:51.584Z",
+      "updatedAt": "2026-07-12T11:53:51.584Z"
+    },
+    "langchain-fundamentals": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-fundamentals/SKILL.md",
+      "skillFolderHash": "64d425535583b9bd96a434be24986bca192e45f6",
+      "installedAt": "2026-07-12T11:53:51.585Z",
+      "updatedAt": "2026-07-12T11:53:51.585Z"
+    },
+    "langchain-middleware": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-middleware/SKILL.md",
+      "skillFolderHash": "fc36a1097394fb462a22d6f015450771a653b099",
+      "installedAt": "2026-07-12T11:53:51.586Z",
+      "updatedAt": "2026-07-12T11:53:51.586Z"
+    },
+    "langchain-rag": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-rag/SKILL.md",
+      "skillFolderHash": "99d950a67fa1ec31321b9074dc208ab6cef35229",
+      "installedAt": "2026-07-12T11:53:51.586Z",
+      "updatedAt": "2026-07-12T11:53:51.586Z"
+    },
+    "langgraph-cli": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-cli/SKILL.md",
+      "skillFolderHash": "51f0eaa1322bf31014dab8de84084f2e5a28710d",
+      "installedAt": "2026-07-12T11:53:51.587Z",
+      "updatedAt": "2026-07-12T11:53:51.587Z"
+    },
+    "langgraph-fundamentals": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-fundamentals/SKILL.md",
+      "skillFolderHash": "aa046661cdbb0752743d797676e25c9a0401f7c0",
+      "installedAt": "2026-07-12T11:53:51.587Z",
+      "updatedAt": "2026-07-12T11:53:51.587Z"
+    },
+    "langgraph-human-in-the-loop": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-human-in-the-loop/SKILL.md",
+      "skillFolderHash": "b8ba56b3d8a2a148731c4ca136f4bdcbc4144dc5",
+      "installedAt": "2026-07-12T11:53:51.588Z",
+      "updatedAt": "2026-07-12T11:53:51.588Z"
+    },
+    "langgraph-persistence": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-persistence/SKILL.md",
+      "skillFolderHash": "78329e3bc968c16282b186a265e04eaa01ca8fbd",
+      "installedAt": "2026-07-12T11:53:51.588Z",
+      "updatedAt": "2026-07-12T11:53:51.588Z"
+    },
+    "managed-deep-agents": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/managed-deep-agents/SKILL.md",
+      "skillFolderHash": "2fff74c06c7602b5794731d03631729477831bf7",
+      "installedAt": "2026-07-12T11:53:51.589Z",
+      "updatedAt": "2026-07-12T11:53:51.589Z"
+    },
+    "swarm": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/swarm/SKILL.md",
+      "skillFolderHash": "b950397a39b53a11fcce5fbd2160fbaaba951339",
+      "installedAt": "2026-07-12T11:53:51.589Z",
+      "updatedAt": "2026-07-12T11:53:51.589Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "claude-code"
+  ]
+}
