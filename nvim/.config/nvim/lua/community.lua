@@ -16,7 +16,10 @@ return {
 	{ import = "astrocommunity.pack.docker" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.pack.json" },
-	{ import = "astrocommunity.pack.python" },
+	-- Base pack with basedpyright and ruff
+	{ import = "astrocommunity.pack.python.base" },
+	{ import = "astrocommunity.pack.python.basedpyright" },
+	{ import = "astrocommunity.pack.python.ruff" },
 	-- { import = "astrocommunity.pack.go" },
 
 	-- Color schemes
