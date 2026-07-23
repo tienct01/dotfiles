@@ -10,7 +10,7 @@ return {
 		---@type AstroUIOpts
 		opts = {
 			-- change colorscheme
-			colorscheme = "catppuccin",
+			colorscheme = "tokyonight-storm",
 		},
 	},
 	{
