@@ -10,7 +10,7 @@ return {
 		---@type AstroUIOpts
 		opts = {
 			-- change colorscheme
-			colorscheme = "tokyonight-storm",
+			colorscheme = "catppuccin",
 		},
 	},
 	{
@@ -18,7 +18,7 @@ return {
 		name = "catppuccin",
 		priority = 1000,
 		opts = {
-			flavour = "macchiato",
+			flavour = "frappe",
 		},
 	},
 	{
