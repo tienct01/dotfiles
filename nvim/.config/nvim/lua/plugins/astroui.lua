@@ -13,14 +13,14 @@ return {
 			colorscheme = "catppuccin",
 		},
 	},
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		opts = {
-			flavour = "frappe",
-		},
-	},
+	-- {
+	-- 	"catppuccin/nvim",
+	-- 	name = "catppuccin",
+	-- 	priority = 1000,
+	-- 	opts = {
+	-- 		flavour = "frappe",
+	-- 	},
+	-- },
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,

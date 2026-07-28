@@ -24,6 +24,7 @@ return {
 
 	-- Color schemes
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
+	{ import = "astrocommunity.colorscheme.catppuccin" },
 
 	-- Completion
 	-- { import = "astrocommunity.recipes.disable-borders" },
@@ -32,5 +33,5 @@ return {
 	-- { import = "astrocommunity.completion.copilot-vim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
 	{ import = "astrocommunity.git.codediff-nvim" },
-	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+	-- { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 }
