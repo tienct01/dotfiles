@@ -22,7 +22,7 @@ tab_item_mode = "focused_session"
 primary_info = "command"
 
 [appearance.window]
-zoom_level = 90
+zoom_level = 100
 
 [text_editing]
 vim_mode_enabled = true
