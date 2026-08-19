@@ -116,8 +116,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Ayu Light",
-    "dark": "Ayu Mirage",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Frappé - No Italics",
   },
 
   "tabs": {
