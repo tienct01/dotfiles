@@ -5,6 +5,8 @@ font_size = 13.0
 notebook_font_size = 14.0
 ai_font_name = "JetBrainsMono Nerd Font"
 match_ai_font = true
+line_height_ratio = 1.399999976158142
+font_weight = "normal"
 
 [appearance.themes]
 selected_system_themes = {
